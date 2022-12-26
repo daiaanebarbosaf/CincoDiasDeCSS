@@ -4,21 +4,51 @@
   box-sizing: border-box;
 }
 
-main {
-  display: flex;
-  align-items: center;
-  /*centralizou na horizontal*/
-  justify-content: center;
-
-
+:root {
+  --bg: #000000;
+  --bg-button: #FFFFFF;
 }
 
-button {
+html,
+body {
+  max-height: 100vh;
+  background-color: var(--bg);
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  gap: 2rem;
+}
+
+.card {
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
   width: 6rem;
-  height: 6rem;
+  max-height: 6rem;
+
+  background-color: var(--bg-button);
+
 }
 
 img {
   width: 3rem;
   height: 3rem;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+ 
+    padding: 10rem;
+  }
 }
