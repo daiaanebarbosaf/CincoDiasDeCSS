@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+button {
+  width: 6rem;
+  height: 6rem;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
