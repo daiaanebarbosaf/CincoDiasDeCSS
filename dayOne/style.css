@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  /*centralizou na horizontal*/
+  justify-content: center;
+
+
+}
 
 button {
   width: 6rem;
