@@ -9,24 +9,41 @@
   --color-text: #FFFFFF;
 }
 
-
 body {
+
+  max-height: 100vh;
   text-align:center;
   background: var(--bg);
   color:var(--color-text);
   font-family:'Roboto';
   font-weight:300;
   font-size:32px;
-  padding-top:40vh;
-  height:100vh;
+  
+
   overflow:hidden;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
 div {
-  display:inline-block;
+
   overflow:hidden;
   white-space:nowrap;
 }
