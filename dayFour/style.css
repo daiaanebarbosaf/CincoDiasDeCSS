@@ -15,6 +15,17 @@ body {
   background-color: var(--bg);
 }
 
+h1 {
+
+  color: var(--bg-button);
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -15rem;
+}
+
 .wrapper {
   height: 100vh;
   display: flex;
@@ -32,7 +43,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   padding: 2rem;
+  margin-bottom: 10rem;
 
   width: 6rem;
   max-height: 6rem;
